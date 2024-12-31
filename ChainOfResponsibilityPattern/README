@@ -1,0 +1,8 @@
+Applications ->
+    ATM / Vending Machine
+    Logger
+
+
+Sender -RQ-> RQ obj1 --> RQ obj2 ... -> RQ objn
+
+Send RQ from sender and we dont know which RQ obj will be able to fulfill it

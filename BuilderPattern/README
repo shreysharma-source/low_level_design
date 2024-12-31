@@ -1,0 +1,11 @@
+Creational Pattern --> Step by step obj creation
+
+Usecase: Some obj where we have a lot of optional fields
+            Huge constructor --solution--> Multiple small constructors with a subset of fields
+            Huge number of constructors
+
+
+Client -> Director -> Builder -> Obj
+
+Director -> Business logic to call the builder set methods as per requirement and then call build methods
+Client -> Calls the createobj function of director
